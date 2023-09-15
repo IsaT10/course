@@ -10,7 +10,6 @@ const Cards = ({ handleCart }) => {
         const response = await fetch("data.json");
         const data = await response.json();
         setCourses(data);
-        console.log("Fetched data:", data);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
