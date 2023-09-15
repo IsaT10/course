@@ -1,10 +1,4 @@
-const Cart = ({
-  courseName,
-  totalHour,
-  remainingTotalHour,
-  totalPrice,
-  courses,
-}) => {
+const Cart = ({ totalHour, remainingTotalHour, totalPrice, courses }) => {
   return (
     <div className="col-span-1 sticky top-0 ">
       <div className="bg-white divide-y divide-stone-200 p-5 rounded-md flex flex-col  justify-center">
@@ -33,10 +27,10 @@ const Cart = ({
           )}
         </div>
 
-        <p className="py-2 font-medium text-stone-600 tracking-wider">
+        <p className="py-2 font-medium text-stone-600 tracking-wide">
           Total Credit Hour: {totalHour}
         </p>
-        <p className="pt-2 font-medium text-stone-600 tracking-wider">
+        <p className="pt-2 font-medium text-stone-600 tracking-wide">
           Total Price: {totalPrice} $
         </p>
       </div>

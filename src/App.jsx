@@ -7,7 +7,6 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const [courseName, setCourseName] = useState([]);
   const [courses, setCourses] = useState([]);
   const [totalHour, setTotalHour] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
@@ -63,7 +62,6 @@ function App() {
     );
     setTotalPrice(sumprice);
     setCourses([...courses, course]);
-    setCourseName([...courseName, course.title]);
     setTotalHour(sumHours);
 
     const remainingHour = 20 - sumHours;
@@ -75,7 +73,6 @@ function App() {
       <main className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4 gap-6 items-start">
         <Cards handleCart={handleCart} />
         <Cart
-          courseName={courseName}
           totalHour={totalHour}
           remainingTotalHour={remainingTotalHour}
           totalPrice={totalPrice}

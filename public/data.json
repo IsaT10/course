@@ -3,7 +3,7 @@
     "id": 1,
     "cover_photo": "https://i.ibb.co/VwZwQnq/python.png",
     "title": "Introduction to OOP Python",
-    "hours": 10,
+    "hours": 9,
     "description": "Python is a versatile, high-level programming language known for its readability and simplicity. It's widely used in web development, data analysis, artificial intelligence, and automation due to its extensive libraries and community support.",
     "price": 500.0
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "cover_photo": "https://i.ibb.co/4fhrP8m/MySQL.png",
     "title": "Database (MySQL)",
-    "hours": 11,
+    "hours": 5,
     "description": "MySQL is an open-source relational database management system (RDBMS). It's popular for its speed, reliability, and scalability, making it a top choice for storing and managing structured data in various applications.",
     "price": 490.0
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "cover_photo": "https://i.ibb.co/gMt6xvb/Cprogramming.png",
     "title": "Introduction to C Programming",
-    "hours": 8,
+    "hours": 4,
     "description": "C programming is a versatile, low-level programming language. It's known for its efficiency and portability, making it ideal for system programming, embedded systems, and creating high-performance applications.",
     "price": 200.0
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "cover_photo": "https://i.ibb.co/VL3M350/Algorithm.png",
     "title": "Introduction to Algorithms",
-    "hours": 9,
+    "hours": 1,
     "description": "Algorithms refers to a step-by-step set of instructions for solving a specific problem or performing a task efficiently. Algorithms are fundamental in computer science and underlie all software and computing processes.",
     "price": 600.0
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "cover_photo": "https://i.ibb.co/vjNfL6h/Problem-Solving.png",
     "title": "Problem-Solving Part",
-    "hours": 18,
+    "hours": 8,
     "description": "Problem-solving is a cognitive process of finding solutions to challenges. It involves identifying issues, analyzing options, and selecting the best course of action to achieve desired outcomes, fostering critical thinking and creativity.",
     "price": 900.0
   },
