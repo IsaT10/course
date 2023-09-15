@@ -21,7 +21,7 @@ const SingleCard = ({ course, handleCart }) => {
         </div>
       </div>
       <button
-        onClick={() => handleCart(title)}
+        onClick={() => handleCart(course)}
         className="bg-[#2F80ED] py-2 rounded-md text-white font-semibold"
       >
         Select
