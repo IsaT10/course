@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import SingleCard from "../SingleCard/SingleCard";
 
-const Cards = () => {
+const Cards = ({ handleCart }) => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -18,9 +18,9 @@ const Cards = () => {
     fetchData();
   }, []);
   return (
-    <div className="md:col-span-2 lg:col-span-3">
+    <div className="md:col-span-2 lg:col-span-3 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       {courses.map((course) => (
-        <SingleCard key={course.id} course={course} />
+        <SingleCard key={course.id} course={course} handleCart={handleCart} />
       ))}
     </div>
   );
